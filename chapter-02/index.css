@@ -139,9 +139,8 @@ input::placeholder{
 }
 
 #personal-info-output{
-    position: absolute;
-    left: 40%;
-    bottom: -195%;
+    margin-left: 200px;
+    margin-top: 20px;
     font-size: large;
     color: #fd97d6;
 
@@ -154,9 +153,8 @@ input::placeholder{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    position: absolute;
-    left: 45%;
-    bottom: -200%;
+    margin-left: 190px;
+    margin-top: 30px;
 
 }
 #edit-personal-info:hover{
@@ -164,9 +162,8 @@ input::placeholder{
     background-color: #d1145d;
 }
 #education-output{
-    position: absolute;
-    left: 40%;
-    bottom: -215%;
+    margin-left: 200px;
+    margin-top: 30px;
     font-size: large;
     color: #fd97d6;
 }
@@ -178,18 +175,16 @@ input::placeholder{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    position: absolute;
-    left: 45%;
-    bottom: -222%;
+    margin-left: 201px;
+    margin-top: 30px;
 }
 #edit-education:hover{
     
     background-color: #d1145d;
 }
 #work-experience-output{
-    position: absolute;
-    left: 40%;
-    bottom: -240%;
+    margin-left: 200px;
+    margin-top: 30px;
     font-size: large;
     color: #fd97d6;
 }
@@ -201,18 +196,16 @@ input::placeholder{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    position: absolute;
-    left: 44%;
-    top: 340%;
+    margin-left: 185px;
+    margin-top: 30px;
 }
 #edit-work-experience:hover{
     
     background-color: #d1145d;
 }
 #skills-output{
-    position: absolute;
-    left: 40%;
-    bottom: -260%;
+    margin-left: 200px;
+    margin-top: 30px;
     font-size: large;
     color: #fd97d6;
 }
@@ -224,9 +217,8 @@ input::placeholder{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    position: absolute;
-    left: 47%;
-    top: 360%;
+    margin-left: 215px;
+    margin-top: 30px;
 }
 #edit-skills:hover{
     
