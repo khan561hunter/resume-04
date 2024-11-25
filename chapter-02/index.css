@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: conic-gradient(#580d20,rgb(9, 9, 105));
+}
+
+.container{
+    justify-content: center;
+    width: 740px;
+    
+    border: 10px;
+    border-radius: 50px;
+    border-style: double;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 60px rgba(0,0,0,3);
+    
+}
+h1{
+    margin-left: 170px ;
+    margin-top: 30px;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-image: radial-gradient(rgb(44, 0, 240),#580d20);
+}
+.fields h3{
+    
+    margin-left: 260px ;
+    font-family: Dancing Script;
+    font-size: xx-large;
+    color: white;
+    text-shadow: rgb(10, 10, 112);
+    margin-top: 15px;
+}
+.edu{
+    padding-left: 55px;
+}
+.ski{
+    padding-left: 75px;
+}
+.work3{
+    padding-left: 10px;
+}
+
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d1145d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #320db8;
+  }
+
+.fields h4{
+    text-align: center;
+    padding-top: 15px;
+    color: #fff5f5;
+    width: 200px;
+    height: 50px;
+    border: 4px;
+    border-radius: 10px;
+    border-style: double;
+    margin-left: 37%;
+    text-wrap: wrap;
+    margin-top: 4%;
+    border-color: aliceblue;
+    background-image: radial-gradient(rgb(4, 4, 255),#580d20);
+}
+.fields input{
+    width: 500px;
+    height: 50px;
+    margin-left: 15%;
+    margin-top: 7%;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: #c5acf1;
+}
+input::placeholder{
+    color: black;
+}
+.picture label{
+    color: white;
+    font-size: medium;
+    margin-left: 3%;
+    position: absolute;
+    top: 30%;
+    
+}
+#generateResume{
+    margin-left: 40%;
+    margin-top: 7%;
+}
+.resume {
+    margin-top: 20px;
+}
+
+
+#resume-output {
+    
+    padding: 9px;
+    margin-bottom: 10px;
+    border-radius: 80px;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 650px;
+    background-image: radial-gradient(rgb(14, 94, 185),#140666);
+    height: 740px;
+    border-style:outset;
+    border-color: #fffb0b;
+
+}
+
+
+.hidden{
+    
+    
+    display: none;
+}
+
+#personal-info-output{
+    position: absolute;
+    left: 40%;
+    bottom: -195%;
+    font-size: large;
+    color: #fd97d6;
+
+}
+#edit-personal-info{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #320db8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    bottom: -200%;
+
+}
+#edit-personal-info:hover{
+    
+    background-color: #d1145d;
+}
+#education-output{
+    position: absolute;
+    left: 40%;
+    bottom: -215%;
+    font-size: large;
+    color: #fd97d6;
+}
+#edit-education{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #320db8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    bottom: -222%;
+}
+#edit-education:hover{
+    
+    background-color: #d1145d;
+}
+#work-experience-output{
+    position: absolute;
+    left: 40%;
+    bottom: -240%;
+    font-size: large;
+    color: #fd97d6;
+}
+#edit-work-experience{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #320db8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 44%;
+    top: 340%;
+}
+#edit-work-experience:hover{
+    
+    background-color: #d1145d;
+}
+#skills-output{
+    position: absolute;
+    left: 40%;
+    bottom: -260%;
+    font-size: large;
+    color: #fd97d6;
+}
+#edit-skills{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #320db8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 47%;
+    top: 360%;
+}
+#edit-skills:hover{
+    
+    background-color: #d1145d;
+}
